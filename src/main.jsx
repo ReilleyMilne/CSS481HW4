@@ -7,7 +7,7 @@ import App from './App.jsx'
 import BookDetails from "./BookDetails.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/CSS481HW4">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/book/:id" element={<BookDetails />} />
