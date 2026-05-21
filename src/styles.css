@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.books {
+  display: grid;
+  gap: 10px;
+}
+
+.book {
+  background: white;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.book:hover {
+  background: #eaeaea;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 200px;
+}
